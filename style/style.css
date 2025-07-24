@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+
+/* Fonts setup */
+
+@layer utilities{
+    .font-noto{
+        font-family: "Noto Serif", sans-serif;
+    }
+    .font-inter{
+        font-family: "inter", sans-serif;
+    }
+}
+ /* Global */
+:root{
+    --primary-color: #E95A08;
+    --secondary-color: rgba(0, 0, 0, 0.5);
+    --color: black;
+}

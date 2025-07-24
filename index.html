@@ -3,9 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Assignment-02</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+          <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="style/style.css">
 </head>
-<body>
+<body class="bg-[#F6F8FF] max-md:overflow-x-hidden">
+    <!-- Header part Start  -->
+     <header class="pt-5">
+
+        <!-- Nav Section Start  -->
+
+            <nav class="m-auto pb-5 flex justify-between items-center w-[1140px] max-md:w-[100%] max-md:pl-5 max-md:pr-5">
+                <a href=""><img src="assets/logo.png" alt="website logo"></a>
+                <div class="flex gap-10">
+                    <ul class="flex gap-10 max-md:hidden">
+                        <li><a class="font-inter text-lg font-normal text-(--secondary-color) hover:text-[#252432] active:text-[#252432]" href="">Home</a></li>
+                        <li><a class="font-inter text-lg font-normal text-(--secondary-color) hover:text-[#252432] active:text-[#252432]" href="">Shop</a></li>
+                        <li><a class="font-inter text-lg font-normal text-(--secondary-color) hover:text-[#252432] active:text-[#252432]" href="">About us</a></li>
+                    </ul>
+                    <button class="text-black text-lg font-inter font-light" type="submit">
+                         <i class="fa-solid fa-cart-plus text-black w-sm"></i> Cart ($56)
+                    </button>
+                </div>
+            </nav>
+            <!-- Nav Section End  -->
+             
+     </header>
+    <!-- Header part End  -->
     
 </body>
 </html>
